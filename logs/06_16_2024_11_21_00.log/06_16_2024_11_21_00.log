@@ -1,0 +1,12 @@
+[ 2024-06-16 11:21:04,978] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:21:09,397] 68 root - INFO {'name': 'wer', 'userid': 'qwsd'}: User data updated
+[ 2024-06-16 11:21:16,822] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:21:22,673] 23 root - INFO {'title': 'ghj', 'author': 'mkl', 'ISBN': '678'} was updated successfully
+[ 2024-06-16 11:21:49,669] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:21:53,075] 60 root - INFO {'name': 'C', 'userid': '234'} User data added
+[ 2024-06-16 11:21:59,306] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:21:59,307] 89 root - INFO Data was fetched
+[ 2024-06-16 11:22:14,545] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:22:17,483] 60 root - INFO {'name': 's', 'userid': '43'} User data added
+[ 2024-06-16 11:22:24,392] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:22:30,114] 82 root - INFO {'name': 's', 'userid': '43'}: data was searched

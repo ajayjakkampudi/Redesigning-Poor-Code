@@ -1,0 +1,13 @@
+user_data_path: 'database/user_manager.csv'
+book_data_path: 'database/book_manager.csv'
+check_data_path: 'database/check_manager.csv'
+
+book_manager_columns:
+  - title
+  - author
+  - ISBN
+  - availability
+
+user_manager_columns:
+  - name
+  - userid

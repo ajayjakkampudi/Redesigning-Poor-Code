@@ -35,9 +35,9 @@ def manage_books(choice: int):
         data = book_inputs()
         res = books_obj.search(data)
         logging.info(f"{data}: data was searched")
-        print(res)
-        
-        print(res) if not res.empty else print("No such data found")
+        if res.empty == True: print("No such data was found")
+        else:
+            print(res)
         
     elif choice == 5:
         print("Books data")
@@ -80,7 +80,9 @@ def manage_users(choice: int):
         data = user_inputs()
         res = user_obj.search(data)
         logging.info(f"{data}: data was searched")
-        print(res) if res.empty else print("No such data found")
+        if res.empty == True: print("No such data was found")
+        else:
+            print(res)
         
     elif choice == 5:
         print("User data")

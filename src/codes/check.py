@@ -32,9 +32,8 @@ class CheckBooks:
         return self.__check_data
     
     def book_availability(self, isbn: str):
-        print(self.__book_data[self.__book_data['ISBN'] == isbn]['availability'] == 'yes')
         availability_ = True if (isbn in list(self.__book_data['ISBN'])) & any(self.__book_data[self.__book_data['ISBN'] == isbn]['availability'] == 'yes') else False
-        return True
+        return availability_
         
     def check_in(self,userid, isbn):
         check_data = {
@@ -42,6 +41,7 @@ class CheckBooks:
             'borrowed_book_ISBN': isbn
         }
         cond = (self.__check_data['userid'] == userid) & (self.__check_data['borrowed_book_ISBN'] == isbn)
+        print(cond)
         self.__check_data = self.__check_data[~cond]
         file_utils.create_csv(self.__check_data, self.__check_data_path)
         
@@ -50,12 +50,14 @@ class CheckBooks:
         self._fetch
     
     def check_out(self, userid: str, isbn):
-        new_user = True if userid not in list(self.__user_data['userid']) else False
-        user_data = {'userid': userid}
+        new_user = True if userid not in list(self.__user_data['userid'].astype(str)) else False
+        user_data = {'name': None, 'userid':userid}
         if new_user:
             print("User not found please enter the user name to add into database")
             user_name = input("Enter user name: ")
             user_data['name'] = user_name
+            user_data['userid'] = userid
+
             self._user_manager.add(user_data)
             
         availability = self.book_availability(isbn)
@@ -64,9 +66,13 @@ class CheckBooks:
             data = dict(userid = [user_data['userid']], ISBN = [isbn])
             added_df = pd.DataFrame(data)
             file_utils.append_df_to_csv(added_df, self.__check_data_path)
-            self._book_manager.update(isbn, {'availabilty':['no']})
+            self._book_manager.update(isbn, {'availability':['no']})
             logging.info(f"{data} data was added successfully")
             print("Data was added to book csv")
             self._fetch
+            
+        else:
+            print("There no availabilty of book")
+            
             
         

@@ -1,0 +1,10 @@
+[ 2024-06-16 11:24:04,605] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:24:14,975] 75 root - INFO {'name': 's', 'userid': '43'} was deleted successfully
+[ 2024-06-16 11:24:24,651] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:24:30,049] 82 root - INFO {'name': 'C', 'userid': '234'}: data was searched
+[ 2024-06-16 11:24:51,915] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:24:51,945] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:24:51,967] 30 root - INFO Database was fetched
+[ 2024-06-16 11:24:59,290] 68 root - INFO {'userid': ['234'], 'ISBN': ['678']} data was added successfully
+[ 2024-06-16 11:24:59,338] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:24:59,354] 30 root - INFO Database was fetched
