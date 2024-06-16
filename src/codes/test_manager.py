@@ -5,8 +5,10 @@ import unittest
 from codes.manager import BookManager
 from codes.database import DatabaseConfig
 
+# Intiates the unit testing
 class TestManage(unittest.TestCase):
     book_manager = BookManager()
+    # Testing the add functinality
     def test_add(self):
         data = dict(zip(DatabaseConfig.book_manage_cols,['A','a',1,'yes']))
         data = {k:v for k,v in data.items()}
