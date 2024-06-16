@@ -47,6 +47,7 @@ class BookManager(Manager):
             file_utils.create_csv(df= df, path= self.__book_data_path)
             
         self.__book_data = file_utils.read_csv(self.__book_data_path)
+        self.__book_data = self.__book_data.astype({col: 'object' for col in self.__book_data.columns})
         logging.info("Book Database was fetched")
         
         return self.__book_data
@@ -58,24 +59,21 @@ class BookManager(Manager):
         added_df = pd.DataFrame(data)
         print(added_df)
         file_utils.append_df_to_csv(added_df, self.__book_data_path)
-        logging.info(f"{data} data was added successfully")
-        print("Data was added to book csv")
         self._fetch
     
     def update(self, isbn, data: dict):
         if not self.search({'ISBN': isbn}):
             print(f"No book was found with id {isbn}")
+            return
             
         for key, val in data.items():
             if val == None:
                 continue
             
-            self.__book_data.loc[self.__book_data['ISBN'] == isbn, key] = val
+            self.__book_data.loc[self.__book_data['ISBN'].astype(str) == isbn, key] = val
             
         file_utils.create_csv(df= self.__book_data, path= self.__book_data_path)
-        logging.info(f"{data} Updated successfully")
-        print("Updation was done")
-    
+        
     def delete(self, data):
         if not self.search(data):
             print("No such data found in the database to delete")
@@ -84,25 +82,23 @@ class BookManager(Manager):
         for key, val in data.items():
             if val == None:
                 continue
-            cond &= self.__book_data[key] == val
+            cond &= self.__book_data[key].astype(str) == val
 
         self.__book_data = self.__book_data[~cond]
         file_utils.create_csv(df= self.__book_data, path= self.__book_data_path)
-        logging.info(f"{data} deletion was done succefully")
-        print("Deletion was done")
+        self._fetch
         
     def search(self, data: dict):
         cond = 1
         for key, val in data.items():
             if val == None:
                 continue
-            cond &= self.__book_data[key] == val
-        print(cond)
+            cond &= self.__book_data[key].astype(str) == val
         not_empty = self.__book_data[cond].shape[0] != 0
         value =  self.__book_data[cond] if not_empty else "No such data found in the database"
-        print(value)
         
-        return True if not_empty else False
+        
+        return value
     
     def list_values(self):
         return self._fetch
@@ -121,27 +117,25 @@ class UserManager(Manager):
             file_utils.create_csv(df= df, path= self.__user_data_path)
             
         self.__user_data = file_utils.read_csv(self.__user_data_path)
-        logging.info("Book Database was fetched")
-        
+        self.__user_data = self.__user_data.astype({col: 'object' for col in self.__user_data.columns})
         return self.__user_data
         
     def add(self, data: dict):
         data = {k:[v] for k,v in data.items()}
         added_df = pd.DataFrame(data)
         file_utils.append_df_to_csv(added_df, self.__user_data_path)
-        logging.info(f"{data} data was added successfully")
-        print("Data was added to book csv")
         self._fetch
     
     def update(self, userid, data: dict):
         if not self.search({'userid': userid}):
             print(f"No book was found with id {userid}")
+            return
             
         for key, val in data.items():
             if val == None:
                 continue
             
-            self.__user_data.loc[self.__user_data['userid'] == userid, key] = val
+            self.__user_data.loc[self.__user_data['userid'].astype(str) == userid, key] = val
             
         file_utils.create_csv(df= self.__user_data, path= self.__user_data_path)
         logging.info(f"{data} Updated successfully")
@@ -155,25 +149,22 @@ class UserManager(Manager):
         for key, val in data.items():
             if val == None:
                 continue
-            cond &= self.__user_data[key] == val
+            cond &= self.__user_data[key].astype(str) == val
 
         self.__user_data = self.__user_data[~cond]
         file_utils.create_csv(df= self.__user_data, path= self.__user_data_path)
-        logging.info(f"{data} deletion was done succefully")
-        print("Deletion was done")
+        self._fetch
         
     def search(self, data: dict):
         cond = 1
         for key, val in data.items():
             if val == None:
                 continue
-            cond &= self.__user_data[key] == val
-        print(cond)
+            cond &= self.__user_data[key].astype(str) == val
         not_empty = self.__user_data[cond].shape[0] != 0
-        value =  self.__user_data[cond] if not_empty else "No such data found in the database"
-        print(value)
+        value =  self.__user_data[cond]
         
-        return True if not_empty else False
+        return value
     
     def list_values(self):
         return self._fetch

@@ -10,7 +10,7 @@ def book_inputs():
     return data
 
 def user_inputs():
-    user_name = str(input("Enter ame: "))
+    user_name = str(input("Enter name: "))
     userid = str(input("Enter userid: "))
     data = {
         'name': None if user_name == '' else user_name,

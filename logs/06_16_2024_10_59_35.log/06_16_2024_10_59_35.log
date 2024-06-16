@@ -1,0 +1,6 @@
+[ 2024-06-16 10:59:43,364] 51 root - INFO Book Database was fetched
+[ 2024-06-16 10:59:55,624] 23 root - INFO {'title': '2e', 'author': 'we', 'ISBN': '32'} was updated successfully
+[ 2024-06-16 11:00:00,706] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:00:08,416] 37 root - INFO {'title': 'A', 'author': 'a', 'ISBN': None}: data was searched
+[ 2024-06-16 11:01:05,659] 51 root - INFO Book Database was fetched
+[ 2024-06-16 11:01:07,786] 37 root - INFO {'title': 'e', 'author': 'e', 'ISBN': None}: data was searched

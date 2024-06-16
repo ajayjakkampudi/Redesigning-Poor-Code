@@ -1,7 +1,0 @@
-[ 2024-06-16 08:51:50,748] 46 root - INFO Book Database was fetched
-[ 2024-06-16 08:51:50,765] 117 root - INFO Book Database was fetched
-[ 2024-06-16 08:51:50,796] 46 root - INFO Book Database was fetched
-[ 2024-06-16 08:51:50,804] 117 root - INFO Book Database was fetched
-[ 2024-06-16 08:51:50,804] 29 root - INFO Database was fetched
-[ 2024-06-16 08:53:02,671] 125 root - INFO {'userid': ['Aaa'], 'name': ['Asd']} data was added successfully
-[ 2024-06-16 08:53:02,702] 117 root - INFO Book Database was fetched

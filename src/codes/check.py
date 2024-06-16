@@ -41,11 +41,11 @@ class CheckBooks:
             'userid': userid,
             'borrowed_book_ISBN': isbn
         }
-        cond = self.__check_data['userid'] == userid and self.__check_data['borrowed_book_ISBN'] == isbn
+        cond = (self.__check_data['userid'] == userid) & (self.__check_data['borrowed_book_ISBN'] == isbn)
         self.__check_data = self.__check_data[~cond]
         file_utils.create_csv(self.__check_data, self.__check_data_path)
         
-        self.__book_data[self.__book_data['ISBN'] == isbn]['availabilty'] = 'yes'
+        self.__book_data.loc[self.__book_data['ISBN'] == isbn, 'availabilty'] = 'yes'
         file_utils.create_csv(self.__book_data, self.__book_data_path)
         self._fetch
     

@@ -3,6 +3,7 @@ from src.codes.manager import BookManager, manager_objects
 from src.codes.check import CheckBooks
 from src.codes.inputs import book_inputs, user_inputs
 from src.codes.menu import main_menu, books_menu, user_menu
+from src.utils.logger import logging
 
 
 def manage_books(choice: int):
@@ -11,25 +12,36 @@ def manage_books(choice: int):
         print("Enter tile, author and ISBN number")
         data = book_inputs()
         books_obj.add(data)
+        logging.info(f"{data} was added successfully")
+        print("Data was added")
         
     elif choice == 2:
         print("Update the values by choosing ISBN value")
         isbn = str(input("Enter ISBN value: "))
         data = book_inputs()
         books_obj.update(isbn= isbn, data= data)
+        logging.info(f"{data} was updated successfully")
+        print("Data was updated")
         
-    elif choice == 4:
+    elif choice == 3:
         print("Enter data that to be deleted")
         data = book_inputs()
         books_obj.delete(data)
+        logging.info(f"{data} was deleted successfully")
+        print("Data was Deleted")
         
     elif choice == 4:
         print("Enter data that to be searched")
         data = book_inputs()
-        books_obj.search(data)
+        res = books_obj.search(data)
+        logging.info(f"{data}: data was searched")
+        print(res)
+        
+        print(res) if not res.empty else print("No such data found")
         
     elif choice == 5:
         print("Books data")
+        logging.info("Data fetched")
         print(books_obj.list_values())
         
     elif choice == 6:
@@ -37,7 +49,7 @@ def manage_books(choice: int):
         return
     else:
         print("Choose Correct Input")
-        user_inputs()
+        book_inputs()
         
 def manage_users(choice: int):
     user_obj = manager_objects('manage_users')
@@ -45,25 +57,34 @@ def manage_users(choice: int):
         print("Enter name and id")
         data = user_inputs()
         user_obj.add(data)
+        logging.info(f"{data} User data added")
+        print("Data Added")
         
     elif choice == 2:
         print("Update the values by choosing user id value")
         userid = str(input("Enter id: "))
         data = user_inputs()
         user_obj.update(userid= userid, data= data)
+        logging.info(f"{data}: User data updated")
+        print("Data Added")
         
     elif choice == 3:
         print("Enter data that to be deleted")
         data = user_inputs()
         user_obj.delete(data)
+        logging.info(f"{data} was deleted successfully")
+        print("Data was Deleted")
         
     elif choice == 4:
         print("Enter data that to be searched")
         data = user_inputs()
-        user_obj.search(data)
+        res = user_obj.search(data)
+        logging.info(f"{data}: data was searched")
+        print(res) if res.empty else print("No such data found")
         
     elif choice == 5:
         print("User data")
+        logging.info("Data was fetched")
         print(user_obj.list_values())
         
     elif choice == 6:
