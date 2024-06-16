@@ -1,6 +1,4 @@
 title,author,ISBN,availability
-B,b,222,no
-E,e,5,yes
-X,x,24,yes
-W,w,23,yes
-
+Machine learning,Goerge,497,yes
+AI,Frank,2167,yes
+Deep Learning,Sam,351,no
