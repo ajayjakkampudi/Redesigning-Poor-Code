@@ -1,0 +1,17 @@
+[ 2024-06-16 23:21:54,055] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:21:54,055] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:21:54,071] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:21:56,294] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:21:56,294] 165 root - INFO {'ISBN': '222'} was found in databse
+[ 2024-06-16 23:21:56,294] 325 root - INFO {'ISBN': '222'} data checking availability is completed
+[ 2024-06-16 23:21:58,327] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:21:58,343] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:21:58,343] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:22:00,720] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:22:00,720] 162 root - INFO {'ISBN': '7u'} was not found in databse
+[ 2024-06-16 23:22:10,900] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:22:10,904] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:22:10,904] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:22:13,537] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:22:13,537] 165 root - INFO {'ISBN': '321'} was found in databse
+[ 2024-06-16 23:22:13,537] 325 root - INFO {'ISBN': '321'} data checking availability is completed

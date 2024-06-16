@@ -1,0 +1,5 @@
+[ 2024-06-16 23:44:24,179] 88 root - INFO {'title': ['W'], 'author': ['w'], 'ISBN': ['23'], 'availability': ['yes']} added successfully
+[ 2024-06-16 23:44:24,194] 15 root - INFO {'title': 'W', 'author': 'w', 'ISBN': '23'} was added successfully
+[ 2024-06-16 23:44:42,180] 170 root - INFO {'ISBN': '25'} was found in databse
+[ 2024-06-16 23:44:42,196] 116 root - INFO Database was updates with {'title': 'E', 'author': 'e', 'ISBN': '5'}
+[ 2024-06-16 23:44:42,196] 23 root - INFO {'title': 'E', 'author': 'e', 'ISBN': '5'} was updated successfully

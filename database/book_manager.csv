@@ -1,5 +1,5 @@
 title,author,ISBN,availability
-
-A,a,1,yes
-A,a,1,yes
-A,a,1,yes
+B,b,222,no
+E,e,5,yes
+X,x,24,yes
+W,w,23,yes

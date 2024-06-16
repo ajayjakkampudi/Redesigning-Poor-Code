@@ -43,7 +43,7 @@ def manage_books(choice: int):
         print("Books data")
         logging.info("Data fetched")
         print(books_obj.list_values())
-        
+    
     elif choice == 6:
         print('Exited')
         return
@@ -123,37 +123,16 @@ def main():
             CheckBooks().check_out(userid= userid, isbn= isbn)
         
         elif choice == 5:
+            availability = manager_objects('availability')
+            isbn = input("Enter ISNB value:")
+            print(availability.book_available(isbn))
+            
+        elif choice == 6:
             break
         else: 
             print("Chose option was invalid. Choose a correct option")
             continue
         
-# def main():
-#     while True:
-#         choice = main_menu()
-#         if choice == '1':
-#             title = input("Enter title: ")
-#             author = input("Enter author: ")
-#             isbn = input("Enter ISBN: ")
-#             book_management.add_book(title, author, isbn)
-#             print("Book added.")
-#         elif choice == '2':
-#             book_management.list_books()
-#         elif choice == '3':
-#             name = input("Enter user name: ")
-#             user_id = input("Enter user ID: ")
-#             user_management.add_user(name, user_id)
-#             print("User added.")
-#         elif choice == '4':
-#             user_id = input("Enter user ID: ")
-#             isbn = input("Enter ISBN of the book to checkout: ")
-#             checkout_management.checkout_book(user_id, isbn)
-#             print("Book checked out.")
-#         elif choice == '5':
-#             print("Exiting.")
-#             break
-#         else:
-#             print("Invalid choice, please try again.")
 
 if __name__ == "__main__":
     main()

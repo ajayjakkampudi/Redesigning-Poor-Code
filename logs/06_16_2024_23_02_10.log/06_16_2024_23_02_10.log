@@ -1,0 +1,39 @@
+[ 2024-06-16 23:02:26,322] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:02:26,322] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:02:26,338] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:02:32,424] 293 root - INFO {'name': 'Carn', 'userid': '890'} was not found in user databse
+[ 2024-06-16 23:02:32,424] 82 root - INFO {'name': 'Carn', 'userid': '890'}: data was searched
+[ 2024-06-16 23:02:39,566] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:02:39,583] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:02:39,583] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:02:50,789] 293 root - INFO {'userid': '12'} was not found in user databse
+[ 2024-06-16 23:02:50,805] 241 root - INFO User Database was updates with {'name': 'Sam', 'userid': None}
+[ 2024-06-16 23:02:50,805] 68 root - INFO {'name': 'Sam', 'userid': None}: User data updated
+[ 2024-06-16 23:02:54,829] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:02:54,829] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:02:54,849] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:02,837] 293 root - INFO {'userid': '12'} was not found in user databse
+[ 2024-06-16 23:03:02,838] 241 root - INFO User Database was updates with {'name': 'Sameer', 'userid': '34'}
+[ 2024-06-16 23:03:02,838] 68 root - INFO {'name': 'Sameer', 'userid': '34'}: User data updated
+[ 2024-06-16 23:03:08,137] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:08,137] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:08,153] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:18,965] 290 root - INFO {'name': 'Bijoy', 'userid': '21'} was not found in user databse
+[ 2024-06-16 23:03:18,965] 75 root - INFO {'name': 'Bijoy', 'userid': '21'} was deleted successfully
+[ 2024-06-16 23:03:28,629] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:28,629] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:28,644] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:34,950] 293 root - INFO {'name': 'Bijoy', 'userid': None} was not found in user databse
+[ 2024-06-16 23:03:34,966] 266 root - INFO {'name': 'Bijoy', 'userid': None} was deleted from user database
+[ 2024-06-16 23:03:34,982] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:34,982] 75 root - INFO {'name': 'Bijoy', 'userid': None} was deleted successfully
+[ 2024-06-16 23:03:42,501] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:42,517] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:42,517] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:03:42,517] 89 root - INFO Data was fetched
+[ 2024-06-16 23:03:42,537] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:04:12,576] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:04:12,576] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:04:12,607] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:04:12,623] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:04:12,623] 30 root - INFO Database was fetched

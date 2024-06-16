@@ -1,0 +1,7 @@
+[ 2024-06-16 23:47:22,141] 33 root - INFO Database was fetched
+[ 2024-06-16 23:47:26,549] 221 root - INFO {'name': ['Sam'], 'userid': ['21']} added successfully
+[ 2024-06-16 23:47:26,581] 170 root - INFO {'ISBN': '222'} was found in databse
+[ 2024-06-16 23:47:26,581] 116 root - INFO Database was updates with {'availability': ['no']}
+[ 2024-06-16 23:47:26,581] 77 root - INFO {'userid': ['21'], 'ISBN': ['222']} data was added successfully
+[ 2024-06-16 23:47:26,721] 33 root - INFO Database was fetched
+[ 2024-06-16 23:48:03,595] 33 root - INFO Database was fetched

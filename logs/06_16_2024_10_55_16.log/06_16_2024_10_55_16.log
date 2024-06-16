@@ -1,3 +1,0 @@
-[ 2024-06-16 10:55:21,381] 51 root - INFO Book Database was fetched
-[ 2024-06-16 10:55:27,039] 51 root - INFO Book Database was fetched
-[ 2024-06-16 10:55:32,480] 37 root - INFO {'title': 'A', 'author': None, 'ISBN': None}: data was searched

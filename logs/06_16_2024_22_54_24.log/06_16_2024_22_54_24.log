@@ -1,0 +1,25 @@
+[ 2024-06-16 22:54:27,393] 62 root - INFO Book Database was fetched
+[ 2024-06-16 22:54:27,393] 196 root - INFO Book Database was fetched
+[ 2024-06-16 22:54:27,408] 62 root - INFO Book Database was fetched
+[ 2024-06-16 22:54:32,418] 160 root - INFO {'title': None, 'author': None, 'ISBN': '231'} was not found in databse
+[ 2024-06-16 22:54:32,418] 37 root - INFO {'title': None, 'author': None, 'ISBN': '231'}: data was searched
+[ 2024-06-16 22:54:44,358] 62 root - INFO Book Database was fetched
+[ 2024-06-16 22:54:44,358] 196 root - INFO Book Database was fetched
+[ 2024-06-16 22:54:44,374] 62 root - INFO Book Database was fetched
+[ 2024-06-16 22:54:49,230] 160 root - INFO {'title': None, 'author': None, 'ISBN': '23`'} was not found in databse
+[ 2024-06-16 22:54:49,230] 37 root - INFO {'title': None, 'author': None, 'ISBN': '23`'}: data was searched
+[ 2024-06-16 22:54:53,134] 62 root - INFO Book Database was fetched
+[ 2024-06-16 22:54:53,134] 196 root - INFO Book Database was fetched
+[ 2024-06-16 22:54:53,150] 62 root - INFO Book Database was fetched
+[ 2024-06-16 22:54:55,395] 160 root - INFO {'title': None, 'author': None, 'ISBN': '231'} was not found in databse
+[ 2024-06-16 22:54:55,395] 37 root - INFO {'title': None, 'author': None, 'ISBN': '231'}: data was searched
+[ 2024-06-16 22:55:08,094] 62 root - INFO Book Database was fetched
+[ 2024-06-16 22:55:08,109] 196 root - INFO Book Database was fetched
+[ 2024-06-16 22:55:08,109] 62 root - INFO Book Database was fetched
+[ 2024-06-16 22:55:11,714] 163 root - INFO {'title': None, 'author': None, 'ISBN': '321'} was not found in databse
+[ 2024-06-16 22:55:11,714] 37 root - INFO {'title': None, 'author': None, 'ISBN': '321'}: data was searched
+[ 2024-06-16 22:55:18,942] 62 root - INFO Book Database was fetched
+[ 2024-06-16 22:55:18,942] 196 root - INFO Book Database was fetched
+[ 2024-06-16 22:55:18,954] 62 root - INFO Book Database was fetched
+[ 2024-06-16 22:55:26,808] 160 root - INFO {'title': 'Cc', 'author': 'cc', 'ISBN': '321'} was not found in databse
+[ 2024-06-16 22:55:26,808] 37 root - INFO {'title': 'Cc', 'author': 'cc', 'ISBN': '321'}: data was searched

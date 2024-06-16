@@ -45,4 +45,3 @@ def user_inputs() -> dict:
     data = dict(zip(manager_user_cols,manager_user_vals))
     return data
 
-book_inputs()

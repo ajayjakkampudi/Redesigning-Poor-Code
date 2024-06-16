@@ -1,3 +1,0 @@
-[ 2024-06-16 20:10:53,170] 62 root - INFO Book Database was fetched
-[ 2024-06-16 20:10:53,185] 83 root - INFO {'title': 'A', 'author': 'a', 'ISBN': 1, 'availability': ['yes']} added successfully
-[ 2024-06-16 20:10:53,201] 62 root - INFO Book Database was fetched

@@ -1,0 +1,32 @@
+[ 2024-06-16 23:12:48,978] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:12:48,993] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:12:48,993] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:12:49,009] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:12:49,009] 30 root - INFO Database was fetched
+[ 2024-06-16 23:12:54,124] 215 root - INFO {'name': ['56'], 'userid': ['32']} added successfully
+[ 2024-06-16 23:12:54,140] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:12:54,155] 165 root - INFO {'ISBN': '222'} was found in databse
+[ 2024-06-16 23:12:54,250] 111 root - INFO Database was updates with {'availability': ['no']}
+[ 2024-06-16 23:12:54,250] 69 root - INFO {'userid': ['32'], 'ISBN': ['222']} data was added successfully
+[ 2024-06-16 23:12:54,305] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:12:54,305] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:12:54,305] 30 root - INFO Database was fetched
+[ 2024-06-16 23:13:21,247] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:21,262] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:21,278] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:21,278] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:21,278] 30 root - INFO Database was fetched
+[ 2024-06-16 23:13:21,294] 165 root - INFO {'ISBN': '321'} was found in databse
+[ 2024-06-16 23:13:21,294] 111 root - INFO Database was updates with {'availability': ['no']}
+[ 2024-06-16 23:13:21,294] 69 root - INFO {'userid': ['34'], 'ISBN': ['321']} data was added successfully
+[ 2024-06-16 23:13:21,341] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:21,341] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:21,341] 30 root - INFO Database was fetched
+[ 2024-06-16 23:13:51,582] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:51,582] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:51,598] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:51,598] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:51,598] 30 root - INFO Database was fetched
+[ 2024-06-16 23:13:51,646] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:51,661] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:13:51,661] 30 root - INFO Database was fetched

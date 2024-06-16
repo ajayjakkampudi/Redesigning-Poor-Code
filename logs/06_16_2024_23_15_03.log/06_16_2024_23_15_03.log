@@ -1,0 +1,40 @@
+[ 2024-06-16 23:15:11,444] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:11,444] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:11,458] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:11,458] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:11,458] 30 root - INFO Database was fetched
+[ 2024-06-16 23:15:11,616] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:11,616] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:11,616] 30 root - INFO Database was fetched
+[ 2024-06-16 23:15:29,803] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:29,813] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:29,813] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:29,829] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:29,829] 30 root - INFO Database was fetched
+[ 2024-06-16 23:15:29,876] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:29,876] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:15:29,876] 30 root - INFO Database was fetched
+[ 2024-06-16 23:19:23,454] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:23,454] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:23,454] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:32,477] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:32,477] 165 root - INFO {'ISBN': '321'} was found in databse
+[ 2024-06-16 23:19:32,477] 325 root - INFO {'ISBN': '321'} data checking availability is completed
+[ 2024-06-16 23:19:35,963] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:35,979] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:35,979] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:37,870] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:37,870] 165 root - INFO {'ISBN': '321'} was found in databse
+[ 2024-06-16 23:19:37,870] 325 root - INFO {'ISBN': '321'} data checking availability is completed
+[ 2024-06-16 23:19:51,565] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:51,565] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:51,565] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:53,284] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:19:53,300] 165 root - INFO {'ISBN': '321'} was found in databse
+[ 2024-06-16 23:19:53,300] 325 root - INFO {'ISBN': '321'} data checking availability is completed
+[ 2024-06-16 23:20:09,794] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:20:09,810] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:20:09,810] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:20:14,641] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:20:14,641] 165 root - INFO {'ISBN': '321'} was found in databse
+[ 2024-06-16 23:20:14,641] 325 root - INFO {'ISBN': '321'} data checking availability is completed

@@ -1,0 +1,26 @@
+[ 2024-06-16 23:00:39,207] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:00:39,207] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:00:39,223] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:00:39,223] 44 root - INFO Data fetched
+[ 2024-06-16 23:00:39,239] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:00:52,575] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:00:52,575] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:00:52,588] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:00:59,435] 215 root - INFO {'name': ['Ajay'], 'userid': ['12']} added successfully
+[ 2024-06-16 23:00:59,473] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:00:59,562] 60 root - INFO {'name': 'Ajay', 'userid': '12'} User data added
+[ 2024-06-16 23:01:12,743] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:01:12,743] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:01:12,755] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:01:16,975] 215 root - INFO {'name': ['Bijoy'], 'userid': ['123']} added successfully
+[ 2024-06-16 23:01:16,997] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:01:16,997] 60 root - INFO {'name': 'Bijoy', 'userid': '123'} User data added
+[ 2024-06-16 23:01:22,180] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:01:22,180] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:01:22,196] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:01:29,364] 215 root - INFO {'name': ['Carn'], 'userid': ['890']} added successfully
+[ 2024-06-16 23:01:29,396] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:01:29,396] 60 root - INFO {'name': 'Carn', 'userid': '890'} User data added
+[ 2024-06-16 23:01:43,438] 62 root - INFO Book Database was fetched
+[ 2024-06-16 23:01:43,441] 198 root - INFO Book Database was fetched
+[ 2024-06-16 23:01:43,452] 62 root - INFO Book Database was fetched

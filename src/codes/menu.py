@@ -57,7 +57,7 @@ def main_menu() -> int:
     print("2. Manage Users")
     print("3. Checkin Book")
     print("4. Checkout Book")
-    print("5. Availability of book")
+    print("5. Track Book Availability")
     print("6. Exit")
     
     # Checks whether choice in interger or not
