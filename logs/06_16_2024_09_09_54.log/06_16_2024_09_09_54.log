@@ -1,0 +1,9 @@
+[ 2024-06-16 09:10:02,848] 46 root - INFO Book Database was fetched
+[ 2024-06-16 09:10:02,848] 117 root - INFO Book Database was fetched
+[ 2024-06-16 09:10:02,863] 46 root - INFO Book Database was fetched
+[ 2024-06-16 09:10:02,863] 117 root - INFO Book Database was fetched
+[ 2024-06-16 09:10:02,863] 29 root - INFO Database was fetched
+[ 2024-06-16 09:10:02,880] 56 root - INFO {'userid': ['Asd'], 'ISBN': ['2e']} data was added successfully
+[ 2024-06-16 09:10:02,896] 46 root - INFO Book Database was fetched
+[ 2024-06-16 09:10:02,911] 117 root - INFO Book Database was fetched
+[ 2024-06-16 09:10:02,911] 29 root - INFO Database was fetched

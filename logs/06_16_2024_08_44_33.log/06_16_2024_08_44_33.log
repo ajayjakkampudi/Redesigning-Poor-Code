@@ -1,0 +1,7 @@
+[ 2024-06-16 08:44:36,004] 46 root - INFO Book Database was fetched
+[ 2024-06-16 08:44:36,004] 117 root - INFO Book Database was fetched
+[ 2024-06-16 08:44:45,696] 57 root - INFO {'title': ['C'], 'author': ['c'], 'ISBN': ['3'], 'availabilty': ['yes']} data was added successfully
+[ 2024-06-16 08:44:45,728] 46 root - INFO Book Database was fetched
+[ 2024-06-16 08:44:49,451] 46 root - INFO Book Database was fetched
+[ 2024-06-16 08:44:49,451] 117 root - INFO Book Database was fetched
+[ 2024-06-16 08:44:57,794] 72 root - INFO {'title': 'VBN', 'author': None, 'ISBN': None} Updated successfully

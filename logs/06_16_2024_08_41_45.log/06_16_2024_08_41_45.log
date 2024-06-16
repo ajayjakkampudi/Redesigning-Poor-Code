@@ -1,0 +1,11 @@
+[ 2024-06-16 08:41:46,323] 46 root - INFO Book Database was fetched
+[ 2024-06-16 08:41:46,337] 117 root - INFO Book Database was fetched
+[ 2024-06-16 08:41:50,743] 57 root - INFO {'title': ['A'], 'author': ['a'], 'ISBN': ['1'], 'availabilty': ['yes']} data was added successfully
+[ 2024-06-16 08:41:50,773] 46 root - INFO Book Database was fetched
+[ 2024-06-16 08:42:13,799] 46 root - INFO Book Database was fetched
+[ 2024-06-16 08:42:13,806] 117 root - INFO Book Database was fetched
+[ 2024-06-16 08:42:16,921] 57 root - INFO {'title': ['B'], 'author': ['b'], 'ISBN': ['2'], 'availabilty': ['yes']} data was added successfully
+[ 2024-06-16 08:42:16,953] 46 root - INFO Book Database was fetched
+[ 2024-06-16 08:42:30,781] 46 root - INFO Book Database was fetched
+[ 2024-06-16 08:42:30,796] 117 root - INFO Book Database was fetched
+[ 2024-06-16 08:42:46,120] 72 root - INFO {'title': 'C', 'author': 'K', 'ISBN': '345'} Updated successfully
