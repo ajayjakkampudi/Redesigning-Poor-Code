@@ -1,0 +1,2 @@
+[ 2024-06-16 23:54:38,228] 88 root - INFO {'title': ['A'], 'author': ['a'], 'ISBN': [1], 'availability': ['yes']} added successfully
+[ 2024-06-16 23:54:38,260] 221 root - INFO {'name': ['A'], 'userid': ['11']} added successfully
