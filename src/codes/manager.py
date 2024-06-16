@@ -302,7 +302,7 @@ class UserManager(Manager):
 class Availability(BookManager):
     def __init__(self) -> None:
         super().__init__()
-    
+        
     def book_available(self,isbn: str):
         """Check the availability using the isbn value
 
