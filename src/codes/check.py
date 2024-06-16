@@ -41,6 +41,8 @@ class CheckBooks(StorageManager):
         return availability_
         
     def check_in(self,userid, isbn):
+        """Checkin the book from library base
+        """
         check_data = {
             'userid': userid,
             'borrowed_book_ISBN': isbn
@@ -50,6 +52,7 @@ class CheckBooks(StorageManager):
         if not any(cond):
             print("No such data is available please check the entries")
             return
+        # deleteds the data check_manager.csv
         self.__check_data = self.__check_data[~cond]
         self.create_csv(self.__check_data, self.__check_data_path)
         
@@ -72,6 +75,8 @@ class CheckBooks(StorageManager):
         if availability:
             data = dict(userid = [user_data['userid']], ISBN = [isbn])
             added_df = pd.DataFrame(data)
+            
+            # adds data in check_manager after book has borrowed
             self.append_df_to_csv(added_df, self.__check_data_path)
             self._book_manager.update(isbn, {'availability':['no']})
             logging.info(f"{data} data was added successfully")

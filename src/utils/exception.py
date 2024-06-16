@@ -12,7 +12,7 @@ def error_msg_details(error) -> str:
 
     return err_desc
 
-
+# Custome Exception Class
 class CustomeException(Exception):
     def __init__(self, error_msg) -> None:
         super().__init__(error_msg)

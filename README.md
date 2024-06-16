@@ -32,6 +32,7 @@ The functionalities of the design:
     * `check.py`: This module contains the Check Module which utilized in checkin and checkout data
     * `menu.py`: This module prints the choices needed to manage the library as given in the above yaml file.
     * `input.py`: This modules have the methods which takes the inputs from user 
+    * `storage.py`: This module contains the methods that are realted for CSV modifications
 
 2. The overall code is thoroughly commented and documented to ensure clarity and ease of understanding. Each module, class, and method includes detailed comments explaining their purpose, functionality, and any important considerations. 
 
@@ -39,9 +40,13 @@ The functionalities of the design:
 
 4. The project includes thorough unit testing for the `BookManager` object for add functionality, which is located in 'codes/test_manager.py'. This ensures that the core functionalities of the library management system are tested and verified for correctness.
 
-5. For future-proofing, the classes in this project are designed to ensure maintainability and flexibility, allowing seamless addition of features such as new columns in book.csv or user.csv without altering existing functionality. This is achieved by configuring input values in a YAML file, enabling the code to adapt automatically.
+5. For future-proofing, the classes in this project are designed to ensure maintainability and flexibility, allowing seamless addition of features such as new columns in book.csv or user.csv without altering existing functionality. This is achieved by configuring input values in a `config/config.yaml` file, enabling the code to adapt automatically.
 
-6. Classes
-    * `BookManager` & `UserManager`:
-    * `BookAvailability`:
-    * `CheckBooks`:
+6. In `manager.py`, the factory design pattern is utilized to facilitate the creation of objects managed within a dictionary structure.
+
+7. Classes
+    * `BookManager` & `UserManager`: The `BookManager` and UserManager classes inherit from an abstract class, each implementing essential methods such as add, update, search, fetch, and delete. Additionally, encapsulation is employed to protect certain instance variables within these classes. According to the functionality choosen add, delete, search, update: csv will be updated
+    * `BookAvailability`: `BookAvailability` inherits from `BookManager`, utilizing its search method for efficient book availability management and to enhance maintainability, 
+    * `CheckBooks`: This class has the functionalities like check-in and check-out. In check-out the book is borrowed, if it is borrowed availability is changed in book_manager and adds the user and book in `check_manager.csv`. In check-out the book returned the availability is changed and user borrow history will be deleted.
+
+

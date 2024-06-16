@@ -11,6 +11,9 @@ class TestManage(unittest.TestCase):
     user_manager = UserManager()
     # Testing the add functinality
     def test_book_add(self):
+        """
+        Tests the add functionality of BookManger
+        """
         data = dict(zip(DatabaseConfig.book_manage_cols,['A','a',1,'yes']))
         data = {k:v for k,v in data.items()}
         
@@ -20,6 +23,9 @@ class TestManage(unittest.TestCase):
         self.assertEqual(added_data, data)
         
     def test_user_add(self):
+        """
+        Tests the add functionality of UserManager
+        """
         data = dict(zip(DatabaseConfig.user_manage_cols,['A',11]))
         data = {k:v for k,v in data.items()}
         

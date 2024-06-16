@@ -15,6 +15,7 @@ from codes.storage import CSVStrorageManager, StorageManager
 class Manager(ABC, StorageManager):
     def __init__(self) -> None:
         super().__init__()
+        # methods to modify csv or json
         self.create_csv, self.read_csv, self.append_df_to_csv = self.storage_func()
     @property
     @abstractmethod
@@ -65,6 +66,7 @@ class BookManager(Manager):
         
         # Reading the csv
         self.__book_data = self.read_csv(self.__book_data_path)
+        # Converts the columns data type to object
         self.__book_data = self.__book_data.astype({col: 'object' for col in self.__book_data.columns})        
         return self.__book_data
         
@@ -79,6 +81,7 @@ class BookManager(Manager):
         """
         try:
             data = {k:[v] for k,v in data.items()}
+            # If data is the book is available
             data['availability'] = ['yes']
             added_df = pd.DataFrame(data)
             
@@ -108,7 +111,7 @@ class BookManager(Manager):
         try:
             for key, val in data.items():
                 if val == None: continue
-                
+                # updates the values
                 self.__book_data.loc[self.__book_data['ISBN'].astype(str) == isbn, key] = val
                 
             self.create_csv(df= self.__book_data, path= self.__book_data_path)
@@ -133,8 +136,10 @@ class BookManager(Manager):
             for key, val in data.items():
                 if val == None:
                     continue
+                # gets truth table
                 cond &= self.__book_data[key].astype(str) == val
 
+            # Deletes the rows
             self.__book_data = self.__book_data[~cond]
             self.create_csv(df= self.__book_data, path= self.__book_data_path)
             print(f"{data} was deleted from book database")
@@ -158,9 +163,9 @@ class BookManager(Manager):
             for key, val in data.items():
                 if val == None:
                     continue
+                # Get truth table
                 cond &= self.__book_data[key].astype(str) == val
-                
-            print(cond)
+            # Searching data
             res = self.__book_data[cond]
             if res.empty:
                 print(f"{data} was not found in databse")
@@ -216,6 +221,8 @@ class UserManager(Manager):
         try:
             data = {k:[v] for k,v in data.items()}
             added_df = pd.DataFrame(data)
+            
+            # datais appended to csv
             self.append_df_to_csv(added_df, self.__user_data_path)
             print(f"{data} Data added successfully")
             logging.info(f"{data} added successfully")
@@ -239,7 +246,7 @@ class UserManager(Manager):
             for key, val in data.items():
                 if val == None:
                     continue
-                
+                # updates
                 self.__user_data.loc[self.__user_data['userid'].astype(str) == userid, key] = val
                 
             self.create_csv(df= self.__user_data, path= self.__user_data_path)
@@ -265,7 +272,7 @@ class UserManager(Manager):
                 if val == None:
                     continue
                 cond &= self.__user_data[key].astype(str) == val
-
+            # deletes
             self.__user_data = self.__user_data[~cond]
             self.create_csv(df= self.__user_data, path= self.__user_data_path)
             print(f"{data} was deleted from user database")

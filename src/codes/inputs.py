@@ -9,7 +9,7 @@ def book_inputs() -> dict:
     Returns:
         dict: returns the inputs in dict format
     """
-    # Fetchs the columns of book manager from yaml file
+    # Fetchs the columns of book manager from yaml file dynamically
     manager_book_cols = DatabaseConfig.book_manage_cols
     manager_book_vals = []
     

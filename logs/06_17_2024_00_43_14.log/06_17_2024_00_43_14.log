@@ -1,0 +1,52 @@
+[ 2024-06-17 00:43:57,142] 91 root - INFO {'title': ['Amar'], 'author': ['Amar'], 'ISBN': ['175'], 'availability': ['yes']} added successfully
+[ 2024-06-17 00:43:57,173] 15 root - INFO {'title': 'Amar', 'author': 'Amar', 'ISBN': '175'} was added successfully
+[ 2024-06-17 00:44:54,158] 91 root - INFO {'title': ['Machine learning'], 'author': ['Goerge'], 'ISBN': ['497'], 'availability': ['yes']} added successfully
+[ 2024-06-17 00:44:54,159] 15 root - INFO {'title': 'Machine learning', 'author': 'Goerge', 'ISBN': '497'} was added successfully
+[ 2024-06-17 00:45:58,623] 175 root - INFO {'title': 'Amar', 'author': None, 'ISBN': None} was found in databse
+[ 2024-06-17 00:45:58,623] 37 root - INFO {'title': 'Amar', 'author': None, 'ISBN': None}: data was searched
+[ 2024-06-17 00:46:12,916] 91 root - INFO {'title': ['AI'], 'author': ['Frank'], 'ISBN': ['2167'], 'availability': ['yes']} added successfully
+[ 2024-06-17 00:46:12,931] 15 root - INFO {'title': 'AI', 'author': 'Frank', 'ISBN': '2167'} was added successfully
+[ 2024-06-17 00:46:43,278] 91 root - INFO {'title': ['Deep Learning'], 'author': ['Sam'], 'ISBN': ['351'], 'availability': ['yes']} added successfully
+[ 2024-06-17 00:46:43,294] 15 root - INFO {'title': 'Deep Learning', 'author': 'Sam', 'ISBN': '351'} was added successfully
+[ 2024-06-17 00:47:09,593] 175 root - INFO {'ISBN': '175'} was found in databse
+[ 2024-06-17 00:47:09,608] 119 root - INFO Database was updates with {'title': 'A', 'author': 'a', 'ISBN': 'qwe'}
+[ 2024-06-17 00:47:09,608] 23 root - INFO {'title': 'A', 'author': 'a', 'ISBN': 'qwe'} was updated successfully
+[ 2024-06-17 00:47:26,063] 175 root - INFO {'title': 'A', 'author': None, 'ISBN': 'qwe'} was found in databse
+[ 2024-06-17 00:47:26,063] 146 root - INFO {'title': 'A', 'author': None, 'ISBN': 'qwe'} was deleted from book database
+[ 2024-06-17 00:47:26,078] 30 root - INFO {'title': 'A', 'author': None, 'ISBN': 'qwe'} was deleted successfully
+[ 2024-06-17 00:47:32,997] 44 root - INFO Data fetched
+[ 2024-06-17 00:47:32,997] 185 root - INFO Book Database was fetched
+[ 2024-06-17 00:47:50,876] 228 root - INFO {'name': ['Ajay'], 'userid': [None]} added successfully
+[ 2024-06-17 00:47:50,891] 60 root - INFO {'name': 'Ajay', 'userid': None} User data added
+[ 2024-06-17 00:48:04,247] 228 root - INFO {'name': ['Ajay'], 'userid': ['234']} added successfully
+[ 2024-06-17 00:48:04,263] 60 root - INFO {'name': 'Ajay', 'userid': '234'} User data added
+[ 2024-06-17 00:50:52,419] 228 root - INFO {'name': ['Sam'], 'userid': ['312']} added successfully
+[ 2024-06-17 00:50:52,452] 60 root - INFO {'name': 'Sam', 'userid': '312'} User data added
+[ 2024-06-17 00:51:25,421] 228 root - INFO {'name': ['Vicky'], 'userid': ['567']} added successfully
+[ 2024-06-17 00:51:25,437] 60 root - INFO {'name': 'Vicky', 'userid': '567'} User data added
+[ 2024-06-17 00:51:47,984] 306 root - INFO {'userid': '312'} was not found in user databse
+[ 2024-06-17 00:51:47,999] 254 root - INFO User Database was updates with {'name': 'Bijoy', 'userid': None}
+[ 2024-06-17 00:51:47,999] 68 root - INFO {'name': 'Bijoy', 'userid': None}: User data updated
+[ 2024-06-17 00:52:02,257] 33 root - INFO Database was fetched
+[ 2024-06-17 00:52:25,915] 33 root - INFO Database was fetched
+[ 2024-06-17 00:52:25,915] 175 root - INFO {'ISBN': '2167'} was found in databse
+[ 2024-06-17 00:52:25,931] 119 root - INFO Database was updates with {'availability': ['no']}
+[ 2024-06-17 00:52:25,931] 82 root - INFO {'userid': ['567'], 'ISBN': ['2167']} data was added successfully
+[ 2024-06-17 00:52:25,979] 33 root - INFO Database was fetched
+[ 2024-06-17 00:53:47,683] 33 root - INFO Database was fetched
+[ 2024-06-17 00:54:01,837] 228 root - INFO {'name': ['Jai'], 'userid': ['289']} added successfully
+[ 2024-06-17 00:54:01,868] 175 root - INFO {'ISBN': '351'} was found in databse
+[ 2024-06-17 00:54:01,868] 119 root - INFO Database was updates with {'availability': ['no']}
+[ 2024-06-17 00:54:01,868] 82 root - INFO {'userid': ['289'], 'ISBN': ['351']} data was added successfully
+[ 2024-06-17 00:54:01,936] 33 root - INFO Database was fetched
+[ 2024-06-17 00:54:30,123] 33 root - INFO Database was fetched
+[ 2024-06-17 00:54:30,217] 33 root - INFO Database was fetched
+[ 2024-06-17 00:54:40,428] 33 root - INFO Database was fetched
+[ 2024-06-17 00:54:56,729] 185 root - INFO Book Database was fetched
+[ 2024-06-17 00:54:56,745] 172 root - INFO {'ISBN': '1'} was not found in databse
+[ 2024-06-17 00:55:04,732] 185 root - INFO Book Database was fetched
+[ 2024-06-17 00:55:04,749] 175 root - INFO {'ISBN': '351'} was found in databse
+[ 2024-06-17 00:55:04,749] 339 root - INFO {'ISBN': '351'} data checking availability is completed
+[ 2024-06-17 00:55:13,632] 185 root - INFO Book Database was fetched
+[ 2024-06-17 00:55:13,632] 175 root - INFO {'ISBN': '2167'} was found in databse
+[ 2024-06-17 00:55:13,648] 339 root - INFO {'ISBN': '2167'} data checking availability is completed
